@@ -45,10 +45,10 @@
 
 -->Used GridSearchcv to find the correct measure of the hyper parameters such that a highest accracy is obtained.<br>
 -->After hyper parameter tuning of both random forest and decision tree accuracies obtained are:<br>
-      Decision Tree Accuracy: 0.9871156661786238<br>
-      Random Forest Accuracy: 0.9885797950219619<br>
+      Decision Tree Accuracy: 98.71%<br>
+      Random Forest Accuracy: 98.85%<br>
 -->Random Forest gave a higher accracy than Decision Tree, so created a new model of Random Forest with the parameters provided by Grid Search and trained it.<br>
--->After training and cross validation of the new model the accuracy obtained is 0.9889918747457422 (98.89%)<br>
+-->After training and cross validation of the new model the accuracy obtained is 98.89%<br>
 
 ## 7. Model Testing 
 -->Created an inference code that accepts inputs from the user and predicts whether his loan approval request will be 'Approved' or 'Rejected'.<br>
