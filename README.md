@@ -14,44 +14,44 @@
 
 ## 2.Data Preprosessing
 
--->Checking for null values
--->Checking for duplicate records.
+-->Checking for null values,<br>
+-->Checking for duplicate records.<br>
 
 ## 3.Exploratory Data Analysis (EDA)
 
--->Checking if the data is skewed by plotting PDA
--->Checking for outliers in the skewed columns
+-->Checking if the data is skewed by plotting PDA.<br>
+-->Checking for outliers in the skewed columns.<br>
 
 ## 4. Data Preparation
 
--->Applying train_test_split on the data set.
--->Applying Label Encoder on output column.
--->Applying standardization on all the input columns since all input columns are numeric.
+-->Applying train_test_split on the data set.<br>
+-->Applying Label Encoder on output column.<br>
+-->Applying standardization on all the input columns since all input columns are numeric.<br>
 
 ## 5. Model Selection And Evaluation
 
--->Selected algorithms for model training are Logistic Regression, Decision Trees, Random Forest,Gradient Boosting,SVM,Naive Bayers.
--->All these 6 algorithms are trained on the data sets and accracy are obtained after apllying cross validation as well.
--->Final accuracies of all alogorithms are:
-      Logistic Regression Accuracy: 0.6458131301470023
-      Decision Tree Accuracy: 0.9857120867280184
-      Random Forest Accuracy: 0.9859462787654891
-      Gradient Boosting Accuracy: 0.9852442523996439
-      SVM Accuracy: 0.622159734362459
-      Naive Bayes Accuracy: 0.622159734362459
--->The selected algorithms for hyper parameter tuning are Random Forest and Decision Tree since both gave a close and higher accuracy.
+-->Selected algorithms for model training are Logistic Regression, Decision Trees, Random Forest,Gradient Boosting,SVM,Naive Bayers.<br>
+-->All these 6 algorithms are trained on the data sets and accracy are obtained after apllying cross validation as well.<br>
+-->Final accuracies of all alogorithms are:<br>
+      Logistic Regression Accuracy: 0.6458131301470023<br>
+      Decision Tree Accuracy: 0.9857120867280184<br>
+      Random Forest Accuracy: 0.9859462787654891<br>
+      Gradient Boosting Accuracy: 0.9852442523996439<br>
+      SVM Accuracy: 0.622159734362459<br>
+      Naive Bayes Accuracy: 0.622159734362459<br>
+-->The selected algorithms for hyper parameter tuning are Random Forest and Decision Tree since both gave a close and higher accuracy.<br>
 
 ## 6. Hyperparameter Tuning
 
--->Used GridSearchcv to find the correct measure of the hyper parameters such that a highest accracy is obtained.
--->After hyper parameter tuning of both random forest and decision tree accuracies obtained are:
-      Decision Tree Accuracy: 0.9871156661786238
-      Random Forest Accuracy: 0.9885797950219619  
--->Random Forest gave a higher accracy than Decision Tree, so created a new model of Random Forest with the parameters provided by Grid Search and trained it.
--->After training and cross validation of the new model the accuracy obtained is 0.9889918747457422 (98.89%)
+-->Used GridSearchcv to find the correct measure of the hyper parameters such that a highest accracy is obtained.<br>
+-->After hyper parameter tuning of both random forest and decision tree accuracies obtained are:<br>
+      Decision Tree Accuracy: 0.9871156661786238<br>
+      Random Forest Accuracy: 0.9885797950219619<br>
+-->Random Forest gave a higher accracy than Decision Tree, so created a new model of Random Forest with the parameters provided by Grid Search and trained it.<br>
+-->After training and cross validation of the new model the accuracy obtained is 0.9889918747457422 (98.89%)<br>
 
 ## 7. Model Testing 
--->Created an inference code that accepts inputs from the user and predicts whether his loan approval request will be 'Approved' or 'Rejected'.
+-->Created an inference code that accepts inputs from the user and predicts whether his loan approval request will be 'Approved' or 'Rejected'.<br>
 
 
 
