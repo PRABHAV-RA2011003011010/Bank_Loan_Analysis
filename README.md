@@ -33,12 +33,12 @@
 -->Selected algorithms for model training are Logistic Regression, Decision Trees, Random Forest,Gradient Boosting,SVM,Naive Bayers.<br>
 -->All these 6 algorithms are trained on the data sets and accracy are obtained after apllying cross validation as well.<br>
 -->Final accuracies of all alogorithms are:<br>
-      Logistic Regression Accuracy: 0.6458131301470023<br>
-      Decision Tree Accuracy: 0.9857120867280184<br>
-      Random Forest Accuracy: 0.9859462787654891<br>
-      Gradient Boosting Accuracy: 0.9852442523996439<br>
-      SVM Accuracy: 0.622159734362459<br>
-      Naive Bayes Accuracy: 0.622159734362459<br>
+      Logistic Regression Accuracy: 64.58%<br>
+      Decision Tree Accuracy: 98.57%<br>
+      Random Forest Accuracy: 98.59%<br>
+      Gradient Boosting Accuracy: 98.52%<br>
+      SVM Accuracy: 62.21%<br>
+      Naive Bayes Accuracy: 62.21%<br>
 -->The selected algorithms for hyper parameter tuning are Random Forest and Decision Tree since both gave a close and higher accuracy.<br>
 
 ## 6. Hyperparameter Tuning
