@@ -1,4 +1,4 @@
-# Bank_Loan_Analysis
+# Bank_Approval_Predictor
 
 ## 1.Data Collection
 
