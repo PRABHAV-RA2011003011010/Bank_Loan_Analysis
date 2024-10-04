@@ -23,7 +23,7 @@ st.title('Loan Approval Pridictor')
 
 income_annum=st.number_input('What is your annual income?')
 loan_amount=st.number_input('Amount of loan required?')
-loan_term=st.number_input('Duration required to repay?')
+loan_term=st.number_input('Duration(in months) required to repay?')
 cibil_score=st.number_input('Your cibil score?')
 total_assets=st.number_input('Your assests valuation?')
 
